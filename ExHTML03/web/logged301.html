@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Coin Corp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3><font color = "green">Vous êtes connecté</font></h3><br>
+        <p>Bienvenue admin !</p><br>
+
+        <p>Dans mon panier, j'ai...</p>
+        <p>... rien du tout</p>
+        <form name="menu" action="servlet302" method="POST">
+            <br>0 <b>Cheese</b><br>
+            <input type="submit" value="+" name="moreA" />
+            <input type="submit" value="-" name="lessA" />
+            <br>0 <b>Hotdog</b><br>
+            <input type="submit" value="+" name="moreB" />
+            <input type="submit" value="-" name="lessB" />
+            <br>0 <b>Milkshake</b><br>
+            <input type="submit" value="+" name="moreC" />
+            <input type="submit" value="-" name="lessC" />
+        </form>
+        
+        <br><br><br>
+
+        <form name="logOut" action="servlet301" method="POST">
+            <input type="submit" value="Déconnexion" name="logOutOK" />    
+        </form>
+
+    </body>
+</html>
